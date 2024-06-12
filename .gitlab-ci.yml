@@ -7,6 +7,7 @@ node-tests:
   script:
     - npm install
     - npm test
+    - npm run lint
   
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
