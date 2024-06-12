@@ -11,5 +11,10 @@
             "src":"/(.*)",
             "dest":"/"
         }
-    ]
+    ],
+    "git":{
+        "deploymentEnabled": {
+            "dev": false
+        }
+    }
 }
